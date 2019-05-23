@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L r820-breakout-rescue:R820T-RafaelMicro U1
+L r820-breakout-rescue:R820T-RafaelMicro-r820-breakout-rescue U1
 U 1 1 5CDEF36B
 P 4400 3650
 F 0 "U1" H 4800 2850 50  0000 C CNN
@@ -26,18 +26,18 @@ F 3 "" H 4450 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L r820-breakout-rescue:C_Small-Device C5
+L r820-breakout-rescue:C_Small-Device-r820-breakout-rescue C5
 U 1 1 5CDEF46F
 P 3100 3200
 F 0 "C5" V 3329 3200 50  0000 C CNN
 F 1 "100nF" V 3238 3200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 3100 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3100 3200 50  0001 C CNN
 F 3 "~" H 3100 3200 50  0001 C CNN
 	1    3100 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L r820-breakout-rescue:C_Small-Device C4
+L r820-breakout-rescue:C_Small-Device-r820-breakout-rescue C4
 U 1 1 5CDEF4C6
 P 2700 3100
 F 0 "C4" V 2471 3100 50  0000 C CNN
@@ -74,7 +74,7 @@ F 3 "" H 2450 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L r820-breakout-rescue:C_Small-Device C6
+L r820-breakout-rescue:C_Small-Device-r820-breakout-rescue C6
 U 1 1 5CDEF8DA
 P 2850 4300
 F 0 "C6" H 2550 4350 50  0000 L CNN
@@ -85,7 +85,7 @@ F 3 "~" H 2850 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L r820-breakout-rescue:C_Small-Device C7
+L r820-breakout-rescue:C_Small-Device-r820-breakout-rescue C7
 U 1 1 5CDEF920
 P 3150 4300
 F 0 "C7" H 3242 4346 50  0000 L CNN
@@ -161,7 +161,7 @@ T_IF_P
 Text GLabel 5500 4900 3    50   Input ~ 0
 T_IF_AGC
 $Comp
-L r820-breakout-rescue:R-Device R1
+L r820-breakout-rescue:R-Device-r820-breakout-rescue R1
 U 1 1 5CDF60D3
 P 5850 4150
 F 0 "R1" H 5920 4196 50  0000 L CNN
@@ -172,7 +172,7 @@ F 3 "~" H 5850 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L r820-breakout-rescue:C_Small-Device C9
+L r820-breakout-rescue:C_Small-Device-r820-breakout-rescue C9
 U 1 1 5CDF73BF
 P 6250 4500
 F 0 "C9" H 6158 4454 50  0000 R CNN
@@ -183,7 +183,7 @@ F 3 "~" H 6250 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L r820-breakout-rescue:C_Small-Device C8
+L r820-breakout-rescue:C_Small-Device-r820-breakout-rescue C8
 U 1 1 5CDF86FE
 P 5850 4500
 F 0 "C8" H 5758 4454 50  0000 R CNN
@@ -243,7 +243,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 3950 5000 3950
 $Comp
-L r820-breakout-rescue:L-Device L2
+L r820-breakout-rescue:L-Device-r820-breakout-rescue L2
 U 1 1 5CE049F6
 P 5300 3650
 F 0 "L2" V 5350 3650 50  0000 C CNN
@@ -254,7 +254,7 @@ F 3 "~" H 5300 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L r820-breakout-rescue:L-Device L1
+L r820-breakout-rescue:L-Device-r820-breakout-rescue L1
 U 1 1 5CE06D89
 P 5300 3450
 F 0 "L1" V 5350 3450 50  0000 C CNN
@@ -292,23 +292,23 @@ F 3 "" H 4700 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L r820-breakout-rescue:C_Small-Device C3
+L r820-breakout-rescue:C_Small-Device-r820-breakout-rescue C3
 U 1 1 5CE0C2BA
 P 4700 2450
-F 0 "C3" H 5400 2500 50  0000 L CNN
-F 1 "100nF" H 5400 2400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 4700 2450 50  0001 C CNN
+F 0 "C3" H 4700 3200 50  0000 L CNN
+F 1 "100nF" H 4700 3100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4700 2450 50  0001 C CNN
 F 3 "~" H 4700 2450 50  0001 C CNN
 	1    4700 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L r820-breakout-rescue:C_Small-Device C2
+L r820-breakout-rescue:C_Small-Device-r820-breakout-rescue C2
 U 1 1 5CE0C345
 P 4500 2450
-F 0 "C2" H 5150 2500 50  0000 L CNN
-F 1 "10nF" H 5150 2400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 4500 2450 50  0001 C CNN
+F 0 "C2" H 4500 3200 50  0000 L CNN
+F 1 "10nF" H 4500 3100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4500 2450 50  0001 C CNN
 F 3 "~" H 4500 2450 50  0001 C CNN
 	1    4500 2450
 	1    0    0    -1  
@@ -334,12 +334,12 @@ Wire Wire Line
 	5000 3200 5750 3200
 NoConn ~ 5000 3050
 $Comp
-L r820-breakout-rescue:C_Small-Device C1
+L r820-breakout-rescue:C_Small-Device-r820-breakout-rescue C1
 U 1 1 5CE150EA
 P 4300 2450
-F 0 "C1" H 4850 2500 50  0000 L CNN
-F 1 "100nF" H 4850 2400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 4300 2450 50  0001 C CNN
+F 0 "C1" H 4300 3400 50  0000 L CNN
+F 1 "100nF" H 4300 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4300 2450 50  0001 C CNN
 F 3 "~" H 4300 2450 50  0001 C CNN
 	1    4300 2450
 	1    0    0    -1  
@@ -380,42 +380,28 @@ Wire Wire Line
 	2850 3650 3800 3650
 Wire Wire Line
 	3150 3750 3800 3750
-$Comp
-L r820-breakout-rescue:Conn_01x10-Connector_Generic J2
-U 1 1 5CE416C7
-P 9300 2400
-F 0 "J2" H 9380 2392 50  0000 L CNN
-F 1 "Conn_01x10" H 9380 2301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 9300 2400 50  0001 C CNN
-F 3 "~" H 9300 2400 50  0001 C CNN
-	1    9300 2400
-	1    0    0    -1  
-$EndComp
 Text GLabel 8900 2000 0    50   Output ~ 0
 VDD_3V
 $Comp
 L power:GND #PWR0101
 U 1 1 5CE41773
-P 8900 2200
-F 0 "#PWR0101" H 8900 1950 50  0001 C CNN
-F 1 "GND" V 8905 2072 50  0000 R CNN
-F 2 "" H 8900 2200 50  0001 C CNN
-F 3 "" H 8900 2200 50  0001 C CNN
-	1    8900 2200
+P 8900 2100
+F 0 "#PWR0101" H 8900 1850 50  0001 C CNN
+F 1 "GND" V 8905 1972 50  0000 R CNN
+F 2 "" H 8900 2100 50  0001 C CNN
+F 3 "" H 8900 2100 50  0001 C CNN
+	1    8900 2100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	9100 2000 8900 2000
 Wire Wire Line
-	9100 2100 9100 2000
-Connection ~ 9100 2000
-Wire Wire Line
-	9100 2200 8900 2200
-Text GLabel 8900 2400 0    50   BiDi ~ 0
-T_SDA
+	9100 2100 8900 2100
 Text GLabel 8900 2300 0    50   BiDi ~ 0
+T_SDA
+Text GLabel 8900 2200 0    50   BiDi ~ 0
 T_SCL
-Text GLabel 8900 2600 0    50   Input ~ 0
+Text GLabel 8900 2500 0    50   Input ~ 0
 T_CLK_Out
 Text GLabel 8900 2700 0    50   Input ~ 0
 T_IF_N
@@ -424,9 +410,9 @@ T_IF_P
 Text GLabel 8900 2900 0    50   Output ~ 0
 T_IF_AGC
 Wire Wire Line
-	9100 2400 8900 2400
+	9100 2300 8900 2300
 Wire Wire Line
-	9100 2600 8900 2600
+	9100 2500 8900 2500
 Wire Wire Line
 	9100 2700 8900 2700
 Wire Wire Line
@@ -434,7 +420,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 2900 8900 2900
 $Comp
-L r820-breakout-rescue:Conn_Coaxial-Connector J1
+L r820-breakout-rescue:Conn_Coaxial-Connector-r820-breakout-rescue J1
 U 1 1 5CE52A4C
 P 9300 1300
 F 0 "J1" H 9399 1276 50  0000 L CNN
@@ -462,7 +448,7 @@ $EndComp
 Wire Wire Line
 	9300 1500 9300 1600
 $Comp
-L r820-breakout-rescue:Conn_01x02-Connector_Generic J4
+L r820-breakout-rescue:Conn_01x02-Connector_Generic-r820-breakout-rescue J4
 U 1 1 5CE56D37
 P 7520 2790
 F 0 "J4" H 7600 2782 50  0000 L CNN
@@ -477,7 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 3950 3600 4900
 $Comp
-L device:Crystal_GND24 Y1
+L r820-breakout-rescue:Crystal_GND24-device Y1
 U 1 1 5CE32966
 P 3000 3960
 F 0 "Y1" H 2810 4006 50  0000 R CNN
@@ -520,38 +506,38 @@ F 3 "" H 3000 3760 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9100 2300 8900 2300
+	9100 2200 8900 2200
 $Comp
 L power:GND #PWR011
 U 1 1 5CE3B44F
-P 8900 2500
-F 0 "#PWR011" H 8900 2250 50  0001 C CNN
-F 1 "GND" V 8905 2372 50  0000 R CNN
-F 2 "" H 8900 2500 50  0001 C CNN
-F 3 "" H 8900 2500 50  0001 C CNN
-	1    8900 2500
+P 8900 2400
+F 0 "#PWR011" H 8900 2150 50  0001 C CNN
+F 1 "GND" V 8905 2272 50  0000 R CNN
+F 2 "" H 8900 2400 50  0001 C CNN
+F 3 "" H 8900 2400 50  0001 C CNN
+	1    8900 2400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8900 2500 9100 2500
+	8900 2400 9100 2400
 $Comp
-L device:C C10
+L r820-breakout-rescue:C-device C10
 U 1 1 5CE3EC04
 P 5300 4300
 F 0 "C10" H 5415 4346 50  0000 L CNN
 F 1 "C" H 5415 4255 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 5338 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5338 4150 50  0001 C CNN
 F 3 "" H 5300 4300 50  0001 C CNN
 	1    5300 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C11
+L r820-breakout-rescue:C-device C11
 U 1 1 5CE3ED03
 P 5400 4540
 F 0 "C11" H 5515 4586 50  0000 L CNN
 F 1 "C" H 5515 4495 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 5438 4390 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5438 4390 50  0001 C CNN
 F 3 "" H 5400 4540 50  0001 C CNN
 	1    5400 4540
 	1    0    0    -1  
@@ -559,45 +545,45 @@ $EndComp
 Wire Wire Line
 	5400 4390 5400 4050
 $Comp
-L device:L L3
+L r820-breakout-rescue:L-device L3
 U 1 1 5CE3F48A
 P 5900 3200
 F 0 "L3" V 5722 3200 50  0000 C CNN
 F 1 "8.2n" V 5813 3200 50  0000 C CNN
-F 2 "Inductors_SMD:L_0603" H 5900 3200 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 5900 3200 50  0001 C CNN
 F 3 "" H 5900 3200 50  0001 C CNN
 	1    5900 3200
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L L4
+L r820-breakout-rescue:L-device L4
 U 1 1 5CE3F55B
 P 7070 2950
 F 0 "L4" H 7123 2996 50  0000 L CNN
 F 1 "180n" H 7123 2905 50  0000 L CNN
-F 2 "Inductors_SMD:L_0603" H 7070 2950 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 7070 2950 50  0001 C CNN
 F 3 "" H 7070 2950 50  0001 C CNN
 	1    7070 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C12
+L r820-breakout-rescue:C-device C12
 U 1 1 5CE3F65C
 P 6260 3200
 F 0 "C12" V 6008 3200 50  0000 C CNN
 F 1 "330p" V 6099 3200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 6298 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6298 3050 50  0001 C CNN
 F 3 "" H 6260 3200 50  0001 C CNN
 	1    6260 3200
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C13
+L r820-breakout-rescue:C-device C13
 U 1 1 5CE3F77D
 P 6770 3200
 F 0 "C13" V 6518 3200 50  0000 C CNN
 F 1 "10n" V 6609 3200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 6808 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6808 3050 50  0001 C CNN
 F 3 "" H 6770 3200 50  0001 C CNN
 	1    6770 3200
 	0    1    1    0   
@@ -608,7 +594,7 @@ U 2 1 5CE3FB59
 P 6450 3420
 F 0 "D1" V 6404 3498 50  0000 L CNN
 F 1 "BAV99" V 6495 3498 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6450 3270 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6450 3270 50  0001 C CNN
 F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 6450 3520 50  0001 C CNN
 	2    6450 3420
 	0    -1   -1   0   
@@ -619,7 +605,7 @@ U 1 1 5CE3FCED
 P 6580 3420
 F 0 "D1" V 6626 3497 50  0000 L CNN
 F 1 "BAV99" V 6535 3497 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6580 3270 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6580 3270 50  0001 C CNN
 F 3 "www.nxp.com/documents/data_sheet/BAV99_SER.pdf" H 6580 3520 50  0001 C CNN
 	1    6580 3420
 	0    1    1    0   
@@ -681,12 +667,12 @@ $EndComp
 Wire Wire Line
 	7320 2890 7320 2920
 $Comp
-L device:C C14
+L r820-breakout-rescue:C-device C14
 U 1 1 5CE5F008
 P 7070 2630
 F 0 "C14" H 7185 2676 50  0000 L CNN
 F 1 "100n" H 7185 2585 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7108 2480 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7108 2480 50  0001 C CNN
 F 3 "" H 7070 2630 50  0001 C CNN
 	1    7070 2630
 	1    0    0    -1  
@@ -717,23 +703,23 @@ $EndComp
 Wire Wire Line
 	4600 4550 4600 4650
 $Comp
-L r820-breakout-rescue:C_Small-Device C16
+L r820-breakout-rescue:C_Small-Device-r820-breakout-rescue C16
 U 1 1 5CE454F0
 P 4100 2440
-F 0 "C16" H 4650 2490 50  0000 L CNN
-F 1 "100nF" H 4650 2390 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 4100 2440 50  0001 C CNN
+F 0 "C16" H 4100 3180 50  0000 L CNN
+F 1 "100nF" H 4100 3080 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4100 2440 50  0001 C CNN
 F 3 "~" H 4100 2440 50  0001 C CNN
 	1    4100 2440
 	1    0    0    -1  
 $EndComp
 $Comp
-L r820-breakout-rescue:C_Small-Device C15
+L r820-breakout-rescue:C_Small-Device-r820-breakout-rescue C15
 U 1 1 5CE455A4
 P 3930 2440
-F 0 "C15" H 4480 2490 50  0000 L CNN
-F 1 "100nF" H 4480 2390 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 3930 2440 50  0001 C CNN
+F 0 "C15" H 3900 3380 50  0000 L CNN
+F 1 "100nF" H 3900 3280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3930 2440 50  0001 C CNN
 F 3 "~" H 3930 2440 50  0001 C CNN
 	1    3930 2440
 	1    0    0    -1  
@@ -776,4 +762,28 @@ Wire Wire Line
 	4100 2650 4200 2650
 Wire Wire Line
 	4100 2340 4100 2200
+$Comp
+L r820-breakout-rescue:Conn_01x10-Connector_Generic-r820-breakout-rescue J2
+U 1 1 5CE416C7
+P 9300 2400
+F 0 "J2" H 9380 2392 50  0000 L CNN
+F 1 "Conn_01x10" H 9380 2301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 9300 2400 50  0001 C CNN
+F 3 "~" H 9300 2400 50  0001 C CNN
+	1    9300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5CE574E3
+P 8890 2600
+F 0 "#PWR0104" H 8890 2350 50  0001 C CNN
+F 1 "GND" V 8895 2472 50  0000 R CNN
+F 2 "" H 8890 2600 50  0001 C CNN
+F 3 "" H 8890 2600 50  0001 C CNN
+	1    8890 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 2600 8890 2600
 $EndSCHEMATC
